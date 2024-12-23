@@ -34,10 +34,12 @@ body {
     font-size: 3em;
     font-weight: bold;
     margin-bottom: 30px;
+    display: none; /* chnages here*/
   }
   
   .topics {
     margin-bottom: 20px;
+    display: none; /* chnages here*/
     
   }
   
@@ -52,6 +54,7 @@ body {
   
   .join-container {
     margin-top: 30px;
+    display: none; /* chnages here*/
   }
   
   .join-btn {
@@ -61,6 +64,7 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.5em;
+    display: none; /* chnages here*/
   }
   
   .join-btn:hover {
