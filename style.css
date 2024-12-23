@@ -1,0 +1,88 @@
+/* Apply Fira Code font to the whole page */
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Other existing styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #countdown {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .topics {
+    margin-bottom: 20px;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
+  .join-container {
+    margin-top: 30px;
+  }
+  
+  .join-btn {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+  }
+  
+  .join-btn:hover {
+    background-color: #45a049;
+  }
+  
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    #countdown {
+      font-size: 2.5em;
+    }
+  
+    ul li {
+      font-size: 1em;
+    }
+  
+    .join-btn {
+      font-size: 1.2em;
+      padding: 12px 25px;
+    }
+  }
+  
